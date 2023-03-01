@@ -13,6 +13,9 @@ from email.message import EmailMessage
 
 #to generate password
 def generatePassword(n):
+    """
+    #Function to generate password
+    """
     passwordconbination = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%&*"
     password = ""
 
@@ -26,7 +29,7 @@ password = generatePassword(n)
 
 # set your email and password
 mail_ID = "pgtest122@gmail.com"
-mail_Pwd = "jrjauxmoivzccgqs"  #app password
+mail_Pwd = "jrjauxmoivzccgqs"                    #app password
 
 
 mail_details = EmailMessage()
