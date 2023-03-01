@@ -6,10 +6,12 @@
 '''
 
 
+
 import random
 import smtplib
 from email.message import EmailMessage
 
+#to generate password
 def generatePassword(n):
     passwordconbination = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%&*"
     password = ""

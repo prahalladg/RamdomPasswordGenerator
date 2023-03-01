@@ -6,11 +6,11 @@
 '''
 
 
-
 import random
 import string
 import smtplib
 
+#to generate password
 def get_password():
     random_source = string.ascii_letters + string.digits
     # select 1 lowercase
