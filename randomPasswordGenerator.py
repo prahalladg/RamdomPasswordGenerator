@@ -29,7 +29,7 @@ password = generatePassword(n)
 
 # set your email and password
 mail_ID = "pgtest122@gmail.com"
-mail_Pwd = "jrjauxmoivzccgqs"                    #app password
+mail_Pwd = "jrjauxmoivzccgqs"                     #app password
 
 
 mail_details = EmailMessage()
