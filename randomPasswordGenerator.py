@@ -1,3 +1,8 @@
+'''
+    Project Name :- Random password Generator
+    
+'''
+
 import random
 import smtplib
 from email.message import EmailMessage
