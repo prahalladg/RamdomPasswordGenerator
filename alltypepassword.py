@@ -5,7 +5,7 @@
 
 '''
 
-import random
+import random            
 import string
 import smtplib
 
@@ -15,11 +15,11 @@ def get_password():
     """
     random_source = string.ascii_letters + string.digits
     
-    password = random.choice(string.ascii_lowercase)            # select 1 lowercase
+    password = random.choice(string.ascii_lowercase)               # select 1 lowercase
     
-    password += random.choice(string.ascii_uppercase)           # select 1 uppercase
+    password += random.choice(string.ascii_uppercase)               # select 1 uppercase
     
-    password += random.choice(string.digits)                    # select 1 digit
+    password += random.choice(string.digits)                       # select 1 digit
     
 
     # generate other characters
