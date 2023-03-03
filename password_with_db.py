@@ -60,18 +60,18 @@ conn.commit()
 conn.close()
 
 
+#for email sending
+# sender = "pgtest122@gmail.com"
+# receiver = email
 
-sender = "pgtest122@gmail.com"
-receiver = email
+# message = f"""\
+# Subject: your new password
+# To: {receiver}
+# From: {sender}
 
-message = f"""\
-Subject: your new password
-To: {receiver}
-From: {sender}
+# Hi user,
+# Your new password is - {password}"""
 
-Hi user,
-Your new password is - {password}"""
-
-with smtplib.SMTP("sandbox.smtp.mailtrap.io", 2525) as server:
-    server.login("4f7e2509c9db93", "932c3449ea967e")
-    server.sendmail(sender, receiver, message)
+# with smtplib.SMTP("sandbox.smtp.mailtrap.io", 2525) as server:
+#     server.login("4f7e2509c9db93", "932c3449ea967e")
+#     server.sendmail(sender, receiver, message)
